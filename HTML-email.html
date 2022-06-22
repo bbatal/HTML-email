@@ -1,14 +1,336 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my Email</title>
-</head>
-<body>
+<!-- Thank you to Responsive HTML Email youtube channel for this great tutorial -->
 
-    <h1>I am an email</h1>
-    
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern HTML Email Template</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        a {
+            font-size: 2rem;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+            padding-bottom: 60px;
+        }
+
+        .portfolio {
+            color: #171a1b; 
+            text-decoration: none;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #171a1b;
+        }
+
+        .two-columns {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+
+        }
+
+        .three-columns .padding {
+            padding: 15px;
+        }
+
+        .three-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0 5px;
+        }
+
+        .two-columns.last {
+            padding: 15px 0;
+        }
+
+        .two-columns .padding {
+            padding: 20px;
+        }
+
+        .two-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+
+        .button {
+            background-color: #ffffff;
+            color: #171a1b;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .button-dark {
+            background-color: #171a1b;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #cccccc">
+
+    <center class="wrapper">
+
+        <table class="main" width="100%">
+    <!-- TOP BORDER -->
+            <tr>
+                <td height="8" style="background-color: #171a1b;"></td>
+            </tr>
+
+    <!-- LOGO SECTION -->
+            <tr>
+                <td style="padding: 14px 0 4px;">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding: 0 50px 10px;">
+                                            <a href="https://bartbatalinski.com" target="_blank" class="portfolio">Portfolio</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding: 6px 72px">
+                                            <a href="https://www.linkedin.com/in/bart-batalinski/" target="_blank"><img src="https://i.ibb.co/j6v9kCZ/black-linkedin.png" alt="linkedIn icon as a clickable link to outside website (LinkedIn)" width="30"></a>
+
+                                            <a href="https://github.com/bbatal" target="_blank"><img src="https://i.ibb.co/0Mf45gs/github.png" alt="Github icon as a clickable link to outside website (Github)" width="30"></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+    <!-- BANNER IMAGE -->
+            <tr>
+                <td>
+                    <a href="#"><img src="https://i.ibb.co/SNkCfNQ/griffin-banner.jpg" alt="" width="600" style="max-width: 100%">
+                    </a>
+                </td>
+            </tr>
+
+    <!-- THREE COLUMN SECTION -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="three-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="https://github.com/bbatal/bart-batalinski-project-1" target="_blank"><img src="https://i.ibb.co/xq7CKRF/email.png" alt="" width="130px" style="max-width: 130px"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Project 1</p>
+                                                        <p>
+                                                            Here is where the semantic HTML5 was used for better accessibility standards. Click on image to view the code
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="https://condescending-minsky-c56f60.netlify.app/" target="_blank"><img src="https://i.ibb.co/3mDmJnx/settings.pngf" alt="" width="130px" style="max-width: 130px"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">Project 3</p>
+                                                        <p>
+                                                            This is a react book choosing application, inspired by my local book club. Click on the image to see live!
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="https://github.com/bbatal/HTML-email" target="_blank"><img src="https://i.ibb.co/4m05Qd6/home.png" alt="" width="130px" style="max-width: 130px"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold;font-size: 17px;">HTML email</p>
+                                                        <p>
+                                                            This email was coded entirely in HTML using the most modern email building techniques. Click on the image to view the code.
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+    <!-- TWO COLUMN SECTION -->
+            <tr>
+                <td style="background-color: #26292B; color: #ffffff;">
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns last">
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <a href="#"><img src="https://i.ibb.co/JKbhSJL/griffin-funny.jpg" alt="" width="260" style="max-width: 260px"></a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-weight: bold; font-size: 18px;">More Pictures Of Griffin</p>
+                                                        <p style="padding-bottom: 16px;">Its too hot for Griffin so he likes to lay near the AC unit</p>
+                                                        <a href="#" class="button">Read More</a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+    <!-- TITLE, TEXT & BUTTON -->
+            <tr>
+                <td style="padding: 15px 0 50px;">
+                    <table width="100%">
+
+                        <tr>
+                            <td style="text-align: center; padding: 15px;">
+                                <p style="font-size: 20px; font-weight: bold;">Here is another cool project you can check out!</p>
+                                <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;">This is called the Nutrition Navigator and is a good example of some Javascript skills I also have. Here I use ES6, arrow syntax, asynchronous functions, callbacks, the Fetch API and several different endpoints to get nutrition data </p>
+                                <a href="https://quizzical-bardeen-ddc132.netlify.app/" class="button-dark" target="_blank">View Project 4</a>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+    <!-- FOOTER SECTION -->
+            <tr>
+                <td style="background-color: #26292b;">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 45px 20px; color: #ffffff;;">
+                                <a href="https://bartbatalinski.com" target="_blank" class="portfolio" style="color: #ffffff;" width="180">Bart Batalinski</a>
+                                <p style="padding: 10px;">Modern HTML Email</p>
+                                <p style="padding: 10px;">65 Garfield Avenue South, Hamilton</p>
+                                <a href="https://www.linkedin.com/in/bart-batalinski/" target="_blank"><img src="https://i.ibb.co/Lp5FT5v/white-linkedin.png" alt="linkedIn icon as a clickable link to outside website (LinkedIn)" width="30"></a>
+
+                                <a href="https://github.com/bbatal" target="_blank"><img src="https://i.ibb.co/0Mf45gs/github.png" alt="Github icon as a clickable link to outside website (Github)" width="30"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+        </table>
+
+    </center>
+
 </body>
+
 </html>
+
